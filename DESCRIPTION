@@ -1,0 +1,14 @@
+Package: TestSQR
+Type: Package
+Title: Testing quantile regression models with high dimensional nuisance parameters
+Version: 1.0
+Date: 2024-10-18
+Author: Bowen Zhou
+Maintainer: Bowen Zhou <bowen_zz@sjtu.edu.cn>
+Description: Construct a U-statistic form test statistic to test the partial parameter with high dimensional nuisance parameters.
+License: GPL-2
+Imports: Rcpp (>= 1.0.13)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Depends: Matrix,conquer
